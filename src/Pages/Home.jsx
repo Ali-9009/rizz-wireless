@@ -13,7 +13,7 @@ export default function Home() {
         <main className="max-w-xl mx-auto h-dvh overflow-hidden bg-white flex flex-col">
 
             {/* App Header */}
-            <header className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -24,7 +24,7 @@ export default function Home() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="w-6 h-6" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
             </header>
 
@@ -50,7 +50,7 @@ export default function Home() {
                         <img
                             src="/assets/b-banner-2.png"
                             alt=""
-                            className="w-full rounded-xl h-65"
+                            className="w-full rounded-xl"
                         />
                     </Link>
                 </div>

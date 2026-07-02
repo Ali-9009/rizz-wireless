@@ -6,7 +6,7 @@ export default function Info() {
     return (
         <main className="relative mx-auto flex h-dvh w-full max-w-xl flex-col overflow-hidden bg-white">
             {/* Header */}
-            <div className="sticky top-0 z-50 flex w-full items-center justify-between border-b border-gray-100 bg-white px-4 py-3 shadow-md shadow-gray-200">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -17,13 +17,13 @@ export default function Info() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="h-6 w-6" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
-            </div>
+            </header>
 
             {/* Scrollable Content */}
             <section className="relative z-20 flex-1 overflow-y-auto px-6 pt-6 pb-40
-    bg-white/10 backdrop-blur-md">
+    backdrop-blur-md bg-green-400">
                 <h1 className="mt-14 text-center text-2xl font-semibold">
 
                 </h1>

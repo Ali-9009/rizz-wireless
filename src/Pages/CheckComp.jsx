@@ -9,7 +9,7 @@ export default function CheckComp() {
     return (
         <main className="relative mx-auto flex h-dvh w-full max-w-xl flex-col overflow-hidden bg-white">
             {/* Header */}
-            <div className="sticky top-0 z-50 flex w-full items-center justify-between border-b border-gray-100 bg-white px-4 py-3 shadow-md shadow-gray-200">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -20,12 +20,12 @@ export default function CheckComp() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="h-6 w-6" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
-            </div>
+            </header>
 
             {/* Content */}
-            <section className="relative z-20 flex flex-1 flex-col items-center overflow-y-auto px-6 pb-32 pt-6 text-center">
+            <section className="relative z-20 flex flex-1 flex-col items-center overflow-y-auto px-6 pb-32 pt-6 text-center bg-orange-400">
                 <h1 className="text-2xl font-semibold"></h1>
 
                 <div className="mt-8">
@@ -68,7 +68,7 @@ export default function CheckComp() {
             <img
                 src="/assets/hustle.png"
                 alt=""
-                className="pointer-events-none fixed bottom-10 left-150 z-10 w-50 max-w-xl -translate-x-1/2"
+                className="pointer-events-none  fixed bottom-18 left-150 z-99 w-50 max-w-xl -translate-x-1/2"
             />
 
             {/* Fixed Bottom Buttons */}

@@ -7,7 +7,7 @@ export default function Info() {
         <main className="max-w-xl mx-auto h-dvh bg-white flex flex-col overflow-hidden">
 
             {/* Header */}
-            <div className="w-full flex items-center justify-between px-4 border-b border-gray-100 shadow-md shadow-gray-200 py-3 shrink-0">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -18,12 +18,12 @@ export default function Info() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="w-6 h-6" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
-            </div>
+            </header>
 
             {/* Scrollable Content */}
-            <section className="flex-1 overflow-y-auto px-6">
+            <section className="flex-1 overflow-y-auto px-6 ">
                 <div className="pb-4">
                     <h1 className="mt-14 text-2xl font-semibold text-center">
                         Add Information

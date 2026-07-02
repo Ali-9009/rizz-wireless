@@ -78,7 +78,7 @@ export default function Plan() {
     return (
 
         <main className="max-w-xl mx-auto h-dvh bg-white flex flex-col">
-            <div className="w-full flex items-center justify-between px-4 border-b border-gray-100 shadow-md shadow-gray-200 py-3 z-20">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -89,11 +89,11 @@ export default function Plan() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="w-6 h-6" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
-            </div>
+            </header>
 
-            <section className="flex-1 flex flex-col px-6 min-h-0">
+            <section className="flex-1 flex flex-col px-6 min-h-0 bg-pink-400">
                 <h1 className="mt-10 text-2xl font-semibold text-center">
 
                 </h1>

@@ -6,7 +6,7 @@ export default function RReview() {
     return (
         <main className="max-w-xl mx-auto h-dvh overflow-hidden bg-white flex flex-col">
             {/* Header */}
-            <header className="flex items-center justify-between px-8 py-5 shadow-sm">
+            <header className="flex items-center bg-black justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
                         src="/assets/logo.png"
@@ -17,7 +17,7 @@ export default function RReview() {
 
                 <div className="flex items-center gap-4">
                     <LanguageSelector />
-                    <ShoppingBagIcon className="w-5 h-5" />
+                    <ShoppingBagIcon className="text-white w-6 h-6" />
                 </div>
             </header>
 

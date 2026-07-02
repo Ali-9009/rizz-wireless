@@ -36,7 +36,7 @@ function LanguageSelector() {
             >
                 <img src={current.flag} className="w-6 h-6 rounded-full" />
                 <span className="text-xs">
-                    <ChevronDown size={18} />
+                    <ChevronDown size={18} className="text-white" />
                 </span>
             </div>
 
